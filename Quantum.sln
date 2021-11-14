@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.Engine", "Quantum.Engine\Quantum.Engine.csproj", "{61D48F4E-59EE-4C82-8DEB-2C0A0F00C518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.Game", "Quantum.Game\Quantum.Game.csproj", "{441B6F80-40CE-4060-AAE4-32BBB2B87682}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{EAA2C2D5-B2D4-492C-A0C5-7BF401F5BA2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{9918EA30-EB3D-4C58-9530-918C0590A890}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperMarioBros", "Games\SuperMarioBros\SuperMarioBros.csproj", "{A294A830-D774-43F0-8A2C-5E0CFA828304}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpriteAnimation", "Examples\SpriteAnimation\SpriteAnimation.csproj", "{AE78D9EC-6ED9-4AA8-888F-2A6BF7BC0336}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plataform2D", "Games\Plataform2D\Plataform2D.csproj", "{92728DCE-027F-42B5-9783-902C3CC62AF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61D48F4E-59EE-4C82-8DEB-2C0A0F00C518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D48F4E-59EE-4C82-8DEB-2C0A0F00C518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D48F4E-59EE-4C82-8DEB-2C0A0F00C518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D48F4E-59EE-4C82-8DEB-2C0A0F00C518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441B6F80-40CE-4060-AAE4-32BBB2B87682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441B6F80-40CE-4060-AAE4-32BBB2B87682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441B6F80-40CE-4060-AAE4-32BBB2B87682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441B6F80-40CE-4060-AAE4-32BBB2B87682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A294A830-D774-43F0-8A2C-5E0CFA828304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A294A830-D774-43F0-8A2C-5E0CFA828304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A294A830-D774-43F0-8A2C-5E0CFA828304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A294A830-D774-43F0-8A2C-5E0CFA828304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE78D9EC-6ED9-4AA8-888F-2A6BF7BC0336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE78D9EC-6ED9-4AA8-888F-2A6BF7BC0336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE78D9EC-6ED9-4AA8-888F-2A6BF7BC0336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE78D9EC-6ED9-4AA8-888F-2A6BF7BC0336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92728DCE-027F-42B5-9783-902C3CC62AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92728DCE-027F-42B5-9783-902C3CC62AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92728DCE-027F-42B5-9783-902C3CC62AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92728DCE-027F-42B5-9783-902C3CC62AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A294A830-D774-43F0-8A2C-5E0CFA828304} = {9918EA30-EB3D-4C58-9530-918C0590A890}
+		{AE78D9EC-6ED9-4AA8-888F-2A6BF7BC0336} = {EAA2C2D5-B2D4-492C-A0C5-7BF401F5BA2F}
+		{92728DCE-027F-42B5-9783-902C3CC62AF3} = {9918EA30-EB3D-4C58-9530-918C0590A890}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C5F05B0-2C07-4EDE-B91F-E5C6278D19FF}
+	EndGlobalSection
+EndGlobal
